@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: ""
+permalink: /resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -11,18 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Computer Science, [UT Arlington](https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse), 2012 (graduated). GPA 4.0
+* M.S. in Computer Science, [UT Arlington](https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse), 2026 (expected)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* May 2024 - Present: Graduate Research Assistant at [IDIR Lab](https://idir.uta.edu/home/)
+  * Build and Deploy a full-stack dashboard application with front-end and back-end for data visualization
+  * Integrate generative AI with RAG into the application stack
 
-* Fall 2015: Research Assistant
+* January 2022 - August 2022: Teaching Assistant at [Tarrant County College computer lab](https://canvas.tccd.edu/courses/35270/pages/computer-learning-center-southeast)
   * GitHub University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
@@ -40,25 +38,3 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
